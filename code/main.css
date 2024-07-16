@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400&display=swap');
+ *{
+    font-family: 'Alfa Slab One', serif;
+font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+ }
+ 
+
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+
+    &::-webkit-scrollbar{
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track{
+        background-color: aquamarine;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background-color: aquamarine;
+    }
+ }
+
+ section{
+    padding: 3rem 9%;
+ }
+
+ body{
+    background-color: rgb(226, 241, 241);
+    overflow-x: hidden;
+ }
+ 
+.btn{
+    
+  
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.9rem;
+    color: #4169E1;
+    border: black;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+
+    &:hover{
+        background-color:#00BFFF;
+        color: #0a0a0a;
+    }
+}
+
+
+
+ .header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color:#66CDAA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 8%;
+
+ }
+
+ .navbar a{
+    font-size: 1.8rem;
+    color: azure;
+    display: inline-block;
+    margin: 0 1rem;
+
+    &:hover{
+        color: #483D8B;
+    }
+ }
+
+ .btn{
+    margin-top: -2;
+    margin-left: -10px;
+    
+ }
+
+ .logo{
+    float: left;
+    margin-right: 800px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+ .differ{
+    float: left;
+    margin-left: -900px;
+    margin-top: -14px;
+    font-size: 20px;
+ }
+
+ span{
+    font-size: 20px;
+ 
+}
+
+
+.home{
+    margin:0 auto;
+    margin-top: 10rem;
+    width: 65%;
+    border-radius: 1rem;
+    background:url(https://i.pinimg.com/564x/9a/ea/94/9aea9454436b36973d57828262a7f8ed.jpg)no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    min-height: 80vh;
+    align-items: left;
+    justify-content: left;
+
+
+    .content{
+        margin-right: 1rem;
+        position: relative;
+        text-align: left;
+        color: #2F4F4F;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .content1{
+        margin-right: 1rem;
+        position: relative;
+        text-align: left;
+        color: #696969;
+        font-size: 15px;
+    
+    }
+}
+
+.blog .box-container{
+     grid:(27rem);
+
+.box{
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: rgb(226, 241, 241);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 8%;
+
+
+
+    &:hover img{
+        transform: scale(1.1);
+
+    }
+.image{
+    height: 50rem;
+    overflow: hidden;
+    width: 50%;
+    border-radius: 5rem;
+
+}
+
+}
+
+.content2 a{
+    
+    margin-right: 1rem;
+    position: relative;
+    text-align: right;
+    color: #2F4F4F;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    background-color:#66CDAA;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding: 1.5rem 2rem;
+    }
+
+    section{
+        padding: 3rem 2rem;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+   

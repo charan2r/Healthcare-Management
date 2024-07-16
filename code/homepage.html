@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Healthcare Management</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href ="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        
+
+        <div class="themebox">
+        <ul>          
+            <img src="logox.jpg" id="img1" width="50px" height="50px">
+            <li><a id="differ">Janasetha<br><span>Healthy life</span></a></li>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href ="about.html" >About Us</a></li>
+            <li><a href ="drug.html" >Diseases Info</a></li>
+            <li><a href ="channel.html" >Channelling</a></li>
+            <li><a href="contact.html" >Contact Us</a></li>          
+            <li><a href ="Logphp/register_form.php" >Sign up</a></li>
+            <li><a href ="Logphp/login_form.php" >Log In</a></li>   
+        </ul>
+        </div>
+
+        <div class="container">
+        <img src="peakpx.jpg" width="100%" height="600px">
+        <div class="pictext1">Making Health Care</div>
+        <div class="pictext2">Better Together</div>
+        <div class="pictext3">Reserve an appointment with our best doctors from Janesetha for your medical needs and also improve your knowledge about diseases for a better health.</div>
+        <div class="pictext4"><button id="hbutton" class="button1">Health Conditions</button></div>
+        </div>
+
+        <script type="text/javascript">
+            document.getElementById("hbutton").onclick = function () {
+                location.href = "drug.html";
+            };
+            document.getElementById("cbutton").onclick = function () {
+                location.href = "channel.html";
+            };
+        </script>
+
+        <footer>
+            <p>&copy;&nbsp;2023 &nbsp; DREAM TEAM&nbsp; Sri Lanka<br>
+            All rights reserved.</p>
+        </footer>
+    </body>
+</html>

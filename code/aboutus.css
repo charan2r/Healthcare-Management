@@ -1,0 +1,167 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:auto;
+    background-color:white;
+    justify-content: center;
+    background-color:rgb(16, 161, 166);
+}
+
+li{
+    float: left;
+}
+li a{       
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px  20px;
+    text-decoration:none;
+    font-size: large;
+    font-weight: bold;
+}
+
+li:hover{
+    background-color: cadetblue;
+}
+
+#img1{
+    float: left;
+    margin-right: 600px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+#differ{
+    float: left;
+    margin-left: -600px;
+    margin-top: -14px;
+    font-size: 24px;
+}
+
+#simple{
+    font-size: 15px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 35px;
+    background-color: rgb(16, 161, 166);
+    color: white;
+    font-size: 20px;
+}
+
+.about-section{
+    background :url(nurseabout.jpg) no-repeat left;
+    opacity: 8.0;
+    background-size: 70%;
+    background-color: rgb(150, 237, 240);
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #e0d6d6;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 15px;
+    color: #161212;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+p.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: normal;
+    color: rgb(172, 134, 109);
+    font-size: 18px;
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.image-section{
+    float: right;
+    width: 40%;
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Alfa Slab One',cursive;
+}
+
+.content-section .content p{
+    margin-top: 20px;
+    font-family: 'Alfa Slab One',cursive;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #4b2c2c;
+}
+
+.content-section .content .button{
+    margin-top: 35px;
+}
+
+.content-section .content .button a{
+    background-color: antiquewhite;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: rgb(163, 117, 101);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    
+}
+
+.content-section .content .button a:hover{
+    background-color: rgb(87, 206, 87);
+    color: aqua;
+    
+}
+
+.content-section .social{
+    margin-top: 40px;
+}
+
+.content-section .social i{
+    color: rgb(32, 128, 218);
+    font-size: 20px;
+    padding: 0px 10px;
+}

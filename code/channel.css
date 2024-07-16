@@ -1,0 +1,274 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:auto;
+    background-color:white;
+    justify-content: center;
+    background-color:rgb(16, 161, 166);
+}
+
+li{
+    float: left;
+}
+li a{       /*Set style for while hovering*/
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px  20px;
+    text-decoration:none;
+    font-size: large;
+    font-weight: bold;
+}
+
+li:hover{
+    background-color: yellow;
+}
+
+#img1{
+    float: left;
+    margin-right: 600px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+#differ{
+    float: left;
+    margin-left: -600px;
+    margin-top: -14px;
+    font-size: 24px;
+}
+#differ:hover{
+    color:red;
+}
+
+#simple{
+    font-size: 15px;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-envelope-o {
+    background: white;
+    color: black;
+}
+.fa{
+    padding: 0px;
+    font-size:20px;
+    width: 20px;
+    text-decoration: none;
+    margin: 3px 10px;
+    float: right;
+    border-radius: 50%;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(16, 161, 166);
+}
+
+.callcase{
+    float: left;
+}
+
+.callcase2{
+    float: left;
+    margin-left: 120px;
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    background-color: rgb(16, 161, 166);
+    color: white;
+    font-size: 20px;
+    margin-top:-80px;
+}
+
+.container3{
+    position: relative;
+    text-align:left;
+    color: black;
+}
+
+.boxchannel1{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    float: left;
+    font-weight: bold;
+    font-size: 35px;
+    color:white;
+    background-color:#3673A0;
+    border-radius:20px;
+    font-family: 'Alfa Slab One',cursive;
+}
+
+.boxchannel2{
+    position: absolute;
+    top: 45%;
+    left: 67px;
+    float: left;
+    font-weight: bold;
+    font-size: 35px;
+    color:white;
+    background-color:#3673A0;
+    border-radius:20px;
+    font-family: 'Alfa Slab One',cursive;
+}
+
+.boxchannel3{
+  position: absolute;
+  top: 40%;
+  left: 100px;
+  float: left;
+  font-weight: bold;
+  font-size: 35px;
+  color:white;
+  background-color:#3673A0;
+  border-radius:20px;
+  font-family: 'Alfa Slab One',cursive;
+}
+
+.channelbtn{
+    position: absolute;
+    top: 65%;
+    left: 150px;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(243, 243, 238);
+    background-color:rgb(43, 204, 116);
+    width:260px;
+    border:none;
+}
+
+.channelbtn:hover{
+    color:purple;
+    background-color:pink;
+    border:none;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    padding:100px;
+    margin-top:-150px;
+    position:relative;
+    margin-left: 10px;
+  }
+  
+.flex-item-left1 {
+    background-color: #4A7A9E;
+    padding: 10px;
+    flex: 25%;
+    border-radius:10px;
+    font-weight:bold;
+    color:white;
+    margin-left: 20px;
+  }
+
+.flex-item-left1 h2{
+    color:orange;
+    font-size:34px;
+  }
+
+.flex-item-left1 p{
+    font-size:20px;
+    text-align:justify;
+  }
+.flex-item-left2 {
+    background-color: #3673A0;
+    padding: 10px;
+    flex: 25%;
+    border-radius:10px;
+    font-weight:bold;
+    color:white;
+  }
+  
+.flex-item-left2 h2{
+    color:orange;
+    font-size:34px;
+  }
+
+.flex-item-left2 p{
+    font-size:20px;
+    text-align:justify;
+  }
+.flex-item-right1 {
+    background-color: #206DA5;
+    padding: 10px;
+    flex: 25%;
+    border-radius:10px;
+    font-weight:bold;
+    color:white;
+  }
+
+.flex-item-right1 h2{
+    color:orange;
+    font-size:34px;
+  }
+
+.flex-item-right1 p{
+    font-size:20px;
+    text-align:justify;
+  }
+.flex-item-right2 {
+    background-color: #0862A3;
+    padding: 10px;
+    flex: 25%;
+    border-radius:10px;
+    font-weight:bold;
+    color:white;
+  }
+
+.flex-item-right2 h2{
+    color:orange;
+    font-size:34px;
+  }
+
+.flex-item-right2 p{
+    font-size:20px;
+    text-align:justify;
+    text-align:center;
+  }
+#appbtn1{
+    width:150px;
+    height:30px;
+    color:black;
+    background-color:yellow;
+    border:none;
+  }
+
+#appbtn2{
+    width:150px;
+    height:30px;
+    color:black;
+    background-color:yellow;
+    border:none;
+  }
+
+#appbtn1:hover,#appbtn2:hover{
+    color:blue;
+    background-color:pink;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
