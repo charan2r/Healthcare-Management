@@ -3,7 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color:#66CDAA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 8%;
 
+ }
+
+ .navbar a{
+    font-size: 1.8rem;
+    color: azure;
+    display: inline-block;
+    margin: 0 1rem;
+
+    &:hover{
+        color: #483D8B;
+    }
+ }
+
+ .btn{
+    margin-top: -2;
+    margin-left: -10px;
+    
+ }
+
+
+ .logo{
+    float: left;
+    margin-right: 800px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+ .differ{
+    float: left;
+    margin-left: -900px;
+    margin-top: -14px;
+    font-size: 20px;
+ }
+
+ span{
+    font-size: 20px;
+ 
+}
 ul{
     list-style-type:none;
     margin:0;
