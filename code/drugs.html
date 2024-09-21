@@ -1,40 +1,35 @@
-<html>
-    <head>
-        <title>Diseases Information</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link href ="drugs.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        
-        <header class="header">
-            
-            <img src="logox.jpg" class="logo" width="50px" height="50px">
-            <a class="differ">Janasetha <br><span>Healthy life</span></a>
-           
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseases Information</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="drugs.css" rel="stylesheet" type="text/css">
+</head>
+<body>
 
-            <nav class="navbar">
-                <a href="mainhome2.html">Home</a>
-                <a href ="about.html" >About Us</a>
-                <a href ="channel.html" >Channelling</a>
-                <a href ="drugs.html" >Diseases Info</a>
-                <a href="contact.html" >Contact Us</a>
-            
+    <header class="header">
+        <img src="logox.jpg" class="logo" width="50px" height="50px" alt="Logo">
+        <a class="differ">Janasetha <br><span>Healthy life</span></a>
+
+        <nav class="navbar">
+            <a href="mainhome2.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="channel.html">Channelling</a>
+            <a href="drugs.html">Diseases Info</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
+    </header>
 
-        </header>
-        <section>
-            
-        </section>
-
-    <section>
-
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for diseases..">
-        
+    <section class="search-section">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for diseases...">
     </section>
 
-    <ul id="disease">
-          <li><a href="allergies.html">Allergies</a></li>
+    <section class="disease-list">
+        <ul id="disease">
+          <li><a href="diseases/allergies.html">Allergies</a></li>
           <li><a href="arthritis.html">Arthritis</a></li>
           <li><a href="asthma.html">Asthma</a></li>
           <li><a href="braintumour.html">Brain Tumour/Tumour</a></li>
@@ -69,22 +64,14 @@
           <li><a href="stroke.html">Stroke</a></li>
           <li><a href="toothache.html">Toothache</a></li>
           <li><a href="vomiting.html">Vomiting</a></li>
-          
-        </ul>  
-        
-        <script src="dieases.js"></script>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <footer>
-            <p>&copy;&nbsp;2023 &nbsp; DREAM TEAM&nbsp; Sri Lanka<br>
-            All rights reserved.</p>
-        </footer>
-    </body>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 DREAM TEAM Sri Lanka<br>All rights reserved.</p>
+    </footer>
+
+    <script src="diseases.js"></script>
+
+</body>
 </html>

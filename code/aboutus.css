@@ -1,213 +1,188 @@
-*{
-    margin: 0; 
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400&display=swap');
+ * {
+    font-family: 'Alfa Slab One', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
     box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+ }
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: aquamarine;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: aquamarine;
+    }
 }
-.header{
+
+body {
+    background-color: rgb(226, 241, 241);
+    overflow-x: hidden;
+}
+
+section {
+    padding: 3rem 9%;
+}
+
+.header {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background-color:#66CDAA;
+    background-color: #66CDAA;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.3rem 8%;
+}
 
- }
-
- .navbar a{
+.navbar a {
     font-size: 1.8rem;
     color: azure;
     display: inline-block;
     margin: 0 1rem;
 
-    &:hover{
+    &:hover {
         color: #483D8B;
     }
- }
+}
 
- .btn{
-    margin-top: -2;
-    margin-left: -10px;
-    
- }
-
-
- .logo{
+.logo {
     float: left;
     margin-right: 800px;
     border-radius: 50%;
     margin-left: 6px;
 }
- .differ{
+
+.differ {
     float: left;
     margin-left: -900px;
     margin-top: -14px;
     font-size: 20px;
- }
-
- span{
-    font-size: 20px;
- 
-}
-ul{
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:auto;
-    background-color:white;
-    justify-content: center;
-    background-color:rgb(16, 161, 166);
 }
 
-li{
-    float: left;
-}
-li a{       
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px  20px;
-    text-decoration:none;
-    font-size: large;
-    font-weight: bold;
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.9rem;
+    color: #4169E1;
+    border: black;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+    margin-left: -10px;
+    margin-top: -2px;
+
+    &:hover {
+        background-color: #00BFFF;
+        color: #0a0a0a;
+    }
 }
 
-li:hover{
-    background-color: cadetblue;
+/* About Us Section */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 9%;
+    background-color: rgb(226, 241, 241);
 }
 
-#img1{
-    float: left;
-    margin-right: 600px;
-    border-radius: 50%;
-    margin-left: 100px;
-}
-#differ{
-    float: left;
-    margin-left: -600px;
-    margin-top: -14px;
-    font-size: 24px;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#simple{
-    font-size: 15px;
+.content-section {
+    width: 50%;
 }
 
-
-footer {
-    text-align: center;
-    padding: 35px;
-    background-color: rgb(16, 161, 166);
-    color: white;
-    font-size: 20px;
+.content-section .title h1 {
+    font-size: 3.5rem;
+    color: #2F4F4F;
+    margin-bottom: 2rem;
 }
 
-.about-section{
-    background :url(nurseabout.jpg) no-repeat left;
-    opacity: 8.0;
-    background-size: 70%;
-    background-color: rgb(150, 237, 240);
-    overflow: hidden;
-    padding: 100px 0;
+.content-section .content p {
+    font-size: 1.8rem;
+    color: #696969;
+    margin-bottom: 2rem;
 }
 
-.inner-container{
-    width: 55%;
-    float: right;
-    background-color: #e0d6d6;
-    padding: 150px;
+.content-section .button a {
+    font-size: 1.9rem;
+    color: #4169E1;
+    padding: 1rem 2rem;
+    background-color: none;
+    border-radius: 5rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #00BFFF;
+        color: #0a0a0a;
+    }
 }
 
-.inner-container h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
+.social a {
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    color: #2F4F4F;
+    transition: all 0.2s linear;
+
+    &:hover {
+        color: #00BFFF;
+    }
 }
 
-.text{
-    font-size: 15px;
-    color: #161212;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
-}
-p.text{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    font-style: normal;
-    color: rgb(172, 134, 109);
-    font-size: 18px;
-}
-
-.section{
-    width: 100%;
-    min-height: 100vh;
-    background-color: #ddd;
-}
-
-.container{
-    width: 80%;
-    display: block;
-    margin: auto;
-    padding-top: 100px;
-}
-
-.content-section{
-    float: left;
-    width: 55%;
-}
-
-.image-section{
-    float: right;
+.image-section {
     width: 40%;
 }
 
-.image-section img{
+.image-section img {
     width: 100%;
+    border-radius: 2rem;
     height: auto;
 }
 
-.content-section .title{
-    text-transform: uppercase;
-    font-size: 28px;
-    font-family: 'Alfa Slab One',cursive;
+footer {
+    text-align: center;
+    padding: 3.5rem;
+    background-color: #66CDAA;
+    color: white;
+    font-size: 2rem;
 }
 
-.content-section .content p{
-    margin-top: 20px;
-    font-family: 'Alfa Slab One',cursive;
-    font-size: 17px;
-    line-height: 1.5;
-    color: #4b2c2c;
-}
+/* Media Queries */
+@media(max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
 
-.content-section .content .button{
-    margin-top: 35px;
-}
+    .header {
+        padding: 1.5rem 2rem;
+    }
 
-.content-section .content .button a{
-    background-color: antiquewhite;
-    padding: 12px 40px;
-    text-decoration: none;
-    color: rgb(163, 117, 101);
-    font-size: 25px;
-    letter-spacing: 1.5px;
-    
-}
+    .section {
+        flex-direction: column;
+        padding: 3rem 2rem;
+    }
 
-.content-section .content .button a:hover{
-    background-color: rgb(87, 206, 87);
-    color: aqua;
-    
-}
-
-.content-section .social{
-    margin-top: 40px;
-}
-
-.content-section .social i{
-    color: rgb(32, 128, 218);
-    font-size: 20px;
-    padding: 0px 10px;
+    .content-section, .image-section {
+        width: 100%;
+        text-align: center;
+    }
 }
