@@ -10,36 +10,39 @@
 
 <body>
 
-<!--<div class="wrapper" >
-	<div class="btn" > <a href="channel.html"  >
-    <button type="button" class="buttonB">Channelling</button>
-</div>
-</div>-->
 
 <div class="wrapper">
-	<div class="btn" > <a href="login3.php">
-	<button type="button" class="buttonA" > Admin</button>
-</div>
+	<div class="btn" > 
+		<a href="../applicationlayer/login3.php">
+	    <button type="button" class="buttonA" > Admin</button>
+		</a>
+    </div>
 </div>
 
+<div class="wrapper" >
+	<div class="btn" > 
+		<a href="../applicationlayer/login.php"  >
+	       <button type="button" class="buttonP">Patient</button>
+		</a>
+    </div>
+</div>
 
 
 <div class="wrapper" >
-	<div class="btn" > <a href="login.php"  >
-	<button type="button" class="buttonP">Patient</button>
-</div>
-</div>
-
-
-
-
-<div class="wrapper" >
-	<div class="btn" > <a href="login2.php"  >
-    <button type="button" class="buttonD">Doctor</button> 
-</div>
+	<div class="btn" > 
+		<a href="../applicationlayer/login2.php" >
+           <button type="button" class="buttonD">Doctor</button> 
+		</a>
+    </div>
 </div>
 
-
+<div class="wrapper">
+	<div class="btn">
+		<a href="channel.html">
+			<button type="button" class="buttonC">Channelling</button>
+		</a>
+	</div>
+</div>
 
 
 </body>
