@@ -31,8 +31,8 @@ if(isset($_POST['submit'])){
         $error[] = 'password not matched!';
     }else{
         $insert = "INSERT INTO user_form(name, email, password) VALUES('$name','$email','$pass')";
-        mysqli_query($conn, $insert);
-        header('location:login_form.php');
+        mysqli_query(mysql: $conn, query: $insert);
+        header(header: 'location:login_form.php');
     }
 
 };

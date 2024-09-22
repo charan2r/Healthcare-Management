@@ -120,6 +120,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 2rem;
     border-radius: 10px;
+    margin-top: 170px;
 }
 
 .boxchannel2 {
@@ -132,6 +133,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 2rem;
     border-radius: 10px;
+    margin-top: 170px;
 }
 
 .channelbtn {
@@ -146,6 +148,7 @@ body {
     border: none;
     border-radius: 5rem;
     cursor: pointer;
+    margin-top: 170px;
 }
 
 .channelbtn:hover {

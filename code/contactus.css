@@ -87,6 +87,7 @@ body {
 .contacts p {
     font-size: 1.8rem;
     color: #2F4F4F;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -125,6 +126,7 @@ body {
 
 .contactForm {
     width: 50%;
+    margin-bottom: 20px;
 }
 
 .contactForm form {

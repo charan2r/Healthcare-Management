@@ -35,7 +35,7 @@ if(isset($_POST['submit'])){
     }*/
 
     if($select==true){
-        header('location:/Healthcare Project/Project/code/mainhome2.html');
+        header(header: 'location:/Healthcare Project/Project/code/mainhome2.html');
     }
     else{
         $error[] = 'incorrect email or password!';
