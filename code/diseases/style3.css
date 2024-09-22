@@ -1,168 +1,158 @@
-*{
-    margin: 0; padding: 0;
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.themebox ul  {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:auto;
-    background-color:white;
-    justify-content: center;
-    background-color:rgb(16, 161, 166);
+/* Navbar Styling */
+.themebox ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(16, 161, 166);
+    padding: 10px 50px;
 }
 
-.themebox li{
-    float: left;
+.themebox li {
+    margin: 0 20px;
 }
-.themebox li a{       
-    display: block;
-    color: black;
+
+.themebox li a {
+    color: white;
     text-align: center;
-    padding: 14px  20px;
-    text-decoration:none;
+    text-decoration: none;
     font-size: large;
     font-weight: bold;
+    padding: 10px;
 }
-.themebox li:hover{
+
+.themebox li:hover {
     background-color: cadetblue;
+    border-radius: 5px;
 }
 
-#img1{
-    float: left;
-    margin-right: 600px;
+/* Logo Styling */
+#img1 {
+    margin-right: auto;
     border-radius: 50%;
-    margin-left: 100px;
-}
-#differ{
-    float: left;
-    margin-left: -600px;
-    margin-top: -14px;
-    font-size: 24px;
 }
 
-span{
+#differ {
+    font-size: 24px;
+    color: white;
+}
+
+#differ span {
+    display: block;
     font-size: 15px;
 }
 
-header{
-    width: 100%;
-    height: 50px;
-}
-
-.container{
-    position: relative;
+/* Heading Styling */
+h1 {
     text-align: center;
-    color: black;
-    justify-items: center;
-}
-.pictext4{
-    position: absolute;
-    top: 80%;
-    left: 100px;
-    float: left;
-    font-size: 40px;
-    margin-top: 25px;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(44, 57, 92);
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
-.pictext5{
-    position: absolute;
-    top: 80%;
-    left: 300px;
-    float: left;
-    font-size: 40px;
-    margin-top: 25px;
+/* Editor Section (Content Styling) */
+.editor {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: rgb(92, 44, 44);
+    font-size: 18px;
+    margin-bottom: 50px;
 }
 
-.button1{
-    width: 180px;
-    height: 30px;
+.editor p {
+    margin-bottom: 20px;
+    text-indent: 30px;
+    font-size: 24px;
+}
+
+.editor h2 {
+    font-size: 35px;
+    color: rgb(44, 57, 92);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.editor ul, .editor ol {
+    margin-left: 40px;
+    font-size: 20px;
+    color: rgb(115, 102, 185);
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.button1, .button2 {
+    width: 200px;
+    height: 40px;
     color: white;
     background-color: blue;
     font-weight: bold;
-    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.button2{
-    width: 150px;
-    height: 30px;
-    color: white;
-    background-color: blue;
-    font-weight: bold;
-}
-
-.button1:hover,.button2:hover{
+.button1:hover, .button2:hover {
     background-color: rgb(201, 217, 59);
     color: black;
 }
 
-.editor p{
-    position: relative;
-    text-align:left ;
-    text-indent: 10px;
-    color: rgb(92, 44, 44);
-    font-size: 20px;
-    line-height: 1.6;
-    margin-left: 10px;
-}
-.editor h2{
-    position: relative;
-    text-align:justify ;
-    text-indent: 10px;
-    color: rgb(44, 57, 92);
-    font-size: 25px;
-    line-height: 1.6;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.editor h3{
-    position: relative;
-    text-align:justify ;
-    text-indent: 10px;
-    color: rgb(31, 32, 36);
-    font-size: 20px;
-    line-height: 1.6;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.editor ul  {
-    
-    margin:0;
-    padding:0;
-    overflow:auto;
-    font-size: 20px;
-    margin-left: 40px;
-    font-weight: 550;
-    color: rgb(115, 102, 185);
+/* Call to Action Section */
+.container {
+    display: flex;
     justify-content: center;
-    
-}
-.editor ol  {
-    
-    margin:0;
-    padding:0;
-    overflow:auto;
-    font-size: 20px;
-    margin-left: 40px;
-    font-weight: 550;
-    color: rgb(115, 102, 185);
-    justify-content: center;
-    
+    margin-top: 50px;
+    gap: 30px;
 }
 
-h1{
-    text-align: center;
-    font-weight: 600;
-    font-size: 50px;
-    font-family: 'Alfa Slab One',cursive;
+.pictext4, .pictext5 {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
+/* Footer Styling */
 footer {
     text-align: center;
-    padding: 35px;
+    padding: 20px;
     background-color: rgb(16, 161, 166);
     color: white;
-    font-size: 20px;
-    margin-top: 25px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .themebox ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .editor {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pictext4, .pictext5 {
+        position: static;
+        margin-top: 10px;
+    }
 }
