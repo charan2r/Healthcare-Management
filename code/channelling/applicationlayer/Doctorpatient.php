@@ -13,7 +13,7 @@
 
 <div class="wrapper">
 	<div class="btn" > 
-		<a href="../applicationlayer/login3.php">
+		<a href="applicationlayer/login3.php">
 	    <button type="button" class="buttonA" > Admin</button>
 		</a>
     </div>
@@ -21,7 +21,7 @@
 
 <div class="wrapper" >
 	<div class="btn" > 
-		<a href="../applicationlayer/login.php"  >
+		<a href="applicationlayer/login.php"  >
 	       <button type="button" class="buttonP">Patient</button>
 		</a>
     </div>
@@ -30,7 +30,7 @@
 
 <div class="wrapper" >
 	<div class="btn" > 
-		<a href="../applicationlayer/login2.php" >
+		<a href="applicationlayer/login2.php" >
            <button type="button" class="buttonD">Doctor</button> 
 		</a>
     </div>
