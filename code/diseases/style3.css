@@ -1,54 +1,97 @@
-/* Reset default margins and paddings */
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400&display=swap');
+ * {
+    font-family: 'Alfa Slab One', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
     box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+ }
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: aquamarine;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: aquamarine;
+    }
 }
 
-/* Navbar Styling */
-.themebox ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+body {
+    background-color: rgb(226, 241, 241);
+    overflow-x: hidden;
+}
+
+section {
+    padding: 3rem 9%;
+}
+
+.header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color: #66CDAA;
     display: flex;
     align-items: center;
-    background-color: rgb(16, 161, 166);
-    padding: 10px 50px;
+    justify-content: space-between;
+    padding: 1.3rem 8%;
 }
 
-.themebox li {
-    margin: 0 20px;
+.navbar a {
+    font-size: 1.8rem;
+    color: azure;
+    display: inline-block;
+    margin: 0 1rem;
+
+    &:hover {
+        color: #483D8B;
+    }
 }
 
-.themebox li a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: large;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.themebox li:hover {
-    background-color: cadetblue;
-    border-radius: 5px;
-}
-
-/* Logo Styling */
-#img1 {
-    margin-right: auto;
+.logo {
+    float: left;
+    margin-right: 800px;
     border-radius: 50%;
+    margin-left: 6px;
 }
 
-#differ {
-    font-size: 24px;
-    color: white;
+.differ {
+    float: left;
+    margin-left: -900px;
+    margin-top: -14px;
+    font-size: 20px;
 }
 
-#differ span {
-    display: block;
-    font-size: 15px;
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.9rem;
+    color: #4169E1;
+    border: black;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+    margin-left: -10px;
+    margin-top: -2px;
+
+    &:hover {
+        background-color: #00BFFF;
+        color: #0a0a0a;
+    }
 }
+
 
 /* Heading Styling */
 h1 {
@@ -57,8 +100,9 @@ h1 {
     font-size: 48px;
     font-family: 'Alfa Slab One', cursive;
     color: rgb(44, 57, 92);
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Editor Section (Content Styling) */
@@ -66,54 +110,72 @@ h1 {
     width: 80%;
     margin: 0 auto;
     line-height: 1.8;
-    color: rgb(92, 44, 44);
+    color: rgb(55, 55, 55);
     font-size: 18px;
     margin-bottom: 50px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .editor p {
     margin-bottom: 20px;
     text-indent: 30px;
-    font-size: 24px;
+    font-size: 20px;
+    color: rgb(70, 70, 70);
 }
 
 .editor h2 {
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(44, 57, 92);
     margin-top: 40px;
     margin-bottom: 15px;
+    border-bottom: 3px solid rgb(115, 102, 185);
+    padding-bottom: 5px;
 }
 
 .editor ul, .editor ol {
     margin-left: 40px;
-    font-size: 20px;
-    color: rgb(115, 102, 185);
-    font-weight: 550;
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+    font-weight: 500;
     margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.editor ul li, .editor ol li {
+    margin-bottom: 10px;
 }
 
 /* Button Styling */
 .button1, .button2 {
-    width: 200px;
-    height: 40px;
+    width: 220px;
+    height: 45px;
     color: white;
-    background-color: blue;
+    background: linear-gradient(90deg, #4CAF50, #008CBA);
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-size: 16px;
 }
 
 .button1:hover, .button2:hover {
-    background-color: rgb(201, 217, 59);
-    color: black;
+    background: linear-gradient(90deg, #45a049, #007BB5);
+    color: #f9f9f9;
+    transform: scale(1.05);
 }
 
 /* Call to Action Section */
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
+    margin-bottom: 20px;
     gap: 30px;
 }
 
@@ -122,14 +184,15 @@ h1 {
     margin-top: 10px;
 }
 
+
+
 /* Footer Styling */
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: rgb(16, 161, 166);
+    padding: 3.5rem;
+    background-color: #66CDAA;
     color: white;
-    font-size: 18px;
-    margin-top: 50px;
+    font-size: 1.6rem;
 }
 
 @media (max-width: 768px) {

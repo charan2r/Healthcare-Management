@@ -1,27 +1,46 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400&display=swap');
+ * {
+    font-family: 'Alfa Slab One', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+ }
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: aquamarine;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: aquamarine;
+    }
 }
 
 body {
     background-color: rgb(226, 241, 241);
-    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+}
+
+section {
+    padding: 3rem 9%;
 }
 
 .header {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 0; left: 0; right: 0;
     z-index: 1000;
     background-color: #66CDAA;
     display: flex;
@@ -33,23 +52,48 @@ body {
 .navbar a {
     font-size: 1.8rem;
     color: azure;
+    display: inline-block;
     margin: 0 1rem;
-}
 
-.navbar a:hover {
-    color: #483D8B;
+    &:hover {
+        color: #483D8B;
+    }
 }
 
 .logo {
+    float: left;
+    margin-right: 800px;
     border-radius: 50%;
+    margin-left: 6px;
 }
 
 .differ {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    margin-left: 10px;
+    float: left;
+    margin-left: -900px;
+    margin-top: -14px;
+    font-size: 20px;
 }
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.9rem;
+    color: #4169E1;
+    border: black;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+    margin-left: -10px;
+    margin-top: -2px;
+
+    &:hover {
+        background-color: #00BFFF;
+        color: #0a0a0a;
+    }
+}
+
+
+
 
 .search-section {
     margin-top: 80px;
